@@ -1,0 +1,110 @@
+﻿body {
+    margin: 0;
+    font-family: lato;
+    font-size: 1.3em;
+    letter-spacing: .037em;
+    background-color: #f3f0f0;
+    color: white;
+}
+
+.Header {
+    background-color: indianred;
+    text-align: center;
+    padding: 25px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+    .Header nav {
+        padding: 5px;
+        width: 100%;
+        background-color: indianred;
+        margin: 0 auto;
+    }
+
+    .nav a {
+        text-decoration: none;
+        color: #f3f0f0;
+    }
+
+        .nav a:hover {
+            background-color: #f3f0f0;
+            color: indianred;
+        }
+
+#container {
+
+    color: black;
+    margin-top: 200px;
+    padding: 10px;
+}
+
+h1,h3 {
+    font-family: Geneva;
+}
+
+h2{
+    color:indianred;
+}
+.resume {
+    color: blue;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.highlight:hover {
+    background-color:lightgrey;
+}
+
+#innertbl {
+    text-align: center;
+}
+.fixTableHead {
+    overflow-y: auto;
+    height: 110px;
+}
+.fixTableHead th {
+    position: sticky;
+    top: 0;
+    background-color:indianred;
+}
+
+form {
+    border: solid;
+    padding: 20px;
+    font-style: italic;
+    font-weight: 900;
+}
+
+
+#img {
+    display: flex;
+    justify-content:center;
+    /*margin:0 auto;
+    width:50%;*/
+    padding-top:20px;
+}
+input[type=submit]{
+    border: 0;
+    border-radius: 0;
+    background: #29292a;
+    box-shadow: none;
+    color: #fff;
+    font-size: 14px;
+    font-size: .875rem;
+    letter-spacing: .05em;
+    line-height: 1;
+    padding: 1em 1.5em;
+    text-shadow: none;
+    text-transform: uppercase;
+    transition: background .2s;
+}
+#w3{
+    
+    padding:10px;
+
+}
